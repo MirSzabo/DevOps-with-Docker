@@ -1,0 +1,5 @@
+$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
+3ba9a061a681        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) 40 seconds ago                       epic_darwin
+2b208b438beb        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) 30 seconds ago                       mystifying_villani
+b2fafb16d1d2        nginx               "/docker-entrypoint.…"   3 minutes ago       Up 3 minutes                80/tcp              intelligent_black
