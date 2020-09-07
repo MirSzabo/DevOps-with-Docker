@@ -1,0 +1,7 @@
+C:\Users\porad>docker run -it ubuntu bash
+root@52b9362add3b:/# sh -c 'echo "Input:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Input:
+helsinki.fi
+Searching..
+sh: 1: curl: not found
+root@52b9362add3b:/#  sh -c 'apt-get update && apt-get -y install curl'
