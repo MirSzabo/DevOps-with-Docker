@@ -1,0 +1,4 @@
+$ mkdir app
+$ cd app
+$ touch log.txt
+$ docker run -v /app/log.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
