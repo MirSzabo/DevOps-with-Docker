@@ -1,0 +1,2 @@
+docker build -t my-java-app .
+docker run --name exercise13 -p 8080:8080 -d my-java-app
